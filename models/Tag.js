@@ -17,10 +17,13 @@ Tag.init(
    }
    
   },
+    // Options for database build
   {
     sequelize,
     timestamps: false,
+    // prevents the use of plurals in database names
     freezeTableName: true,
+    // uses underscores as opposed to default camelCase in database names
     underscored: true,
     modelName: 'tag',
   }

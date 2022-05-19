@@ -38,15 +38,18 @@ Product.init(
    category_id: {
      type: DataTypes.INTEGER,
      references: {
-        model: Category,
+        model: 'category',
         key: 'id'
       }
    }
   },
+    // Options for database build
   {
     sequelize,
     timestamps: false,
+    // prevents the use of plurals in database names
     freezeTableName: true,
+    // uses underscores as opposed to default camelCase in database names
     underscored: true,
     modelName: 'product',
   }
