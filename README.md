@@ -2,16 +2,10 @@
 
 ## Description
 
-This is the backend for an e-commerce solution.
+This is the back-end for an e-commerce solution.  As an internet retail company we want a start of the art back-end for our website in order to compete with other internet retail companies. We are building this e-commerce back-end consisting of a MySQL database accessed through Sequelize using Express and Node.js to serve the front-end of out web site.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -20,27 +14,21 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-Copy down the entire repository to a local folder and run "npm install".   All the dependencies will be installed.  You will also want to edit the MySQL logon credentials in the .env file.
+Copy down the entire repository (https://github.com/melliott7264/e-commerce-back-end) to a local folder and run "npm install".   All the dependencies will be installed.  You will have to log into the MySQL shell as root to create the new ecommerce_db database by running "source ./db/schema.sql".  You may also want to grant privileges on the new database and tables to another user while you are there.   Make sure the credentials for that user are in the .env file to be used by the server on startup to connect to the database.  When you run "npm start" to start the server, Sequelizer will create the tables. 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Run "npm start" from the command line in the root of your application folder to start the server.   This will make the database available to your front end on the api routes.  You can use Insomnia to test these routes; /api/categories, /api/tags, /api/products.   There are routes for GET all, GET one on the id, POST, PUT on the id, and DELETE on the id.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+YouTube Walk-through Part 1 (Setup and Gets):
+YouTube Walk-through Part 2 (POSTs, PUTs, and DELETEs):
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
 Mark Elliott  https://github.com/melliott7264
 
-List your collaborators, if any, with links to their GitHub profiles.
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
 
@@ -64,24 +52,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
