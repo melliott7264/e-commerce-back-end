@@ -2,7 +2,7 @@
 
 ## Description
 
-This is the back-end for an e-commerce solution.  As an internet retail company we want a start of the art back-end for our website in order to compete with other internet retail companies. We are building this e-commerce back-end consisting of a MySQL database accessed through Sequelize using Express and Node.js to serve the front-end of out web site.
+This is the back-end for an e-commerce solution.  As an internet retail company we want a state of the art back-end for our website in order to compete with other internet retail companies. We are building this e-commerce back-end consisting of a MySQL database accessed through Sequelize using Express and Node.js to serve the front-end of out web site.
 
 
 ## Table of Contents
@@ -20,8 +20,9 @@ Copy down the entire repository (https://github.com/melliott7264/e-commerce-back
 
 Run "npm start" from the command line in the root of your application folder to start the server.   This will make the database available to your front end on the api routes.  You can use Insomnia to test these routes; /api/categories, /api/tags, /api/products.   There are routes for GET all, GET one on the id, POST, PUT on the id, and DELETE on the id.
 
-YouTube Walk-through Part 1 (Setup and Gets):
-YouTube Walk-through Part 2 (POSTs, PUTs, and DELETEs):
+YouTube Walk-through Part 1 (Setup and Gets):  https://youtu.be/CLabwVElYWo
+YouTube Walk-through Part 2 (POSTs, PUTs): https://youtu.be/OcLE8XM3YHg
+YouTube Walk-through Part 3 (PUT and DELETEs):
 
 
 ## Credits
