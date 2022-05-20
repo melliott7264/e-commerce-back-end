@@ -22,7 +22,7 @@ Run "npm start" from the command line in the root of your application folder to 
 
 YouTube Walk-through Part 1 (Setup and Gets):  https://youtu.be/CLabwVElYWo
 YouTube Walk-through Part 2 (POSTs, PUTs): https://youtu.be/OcLE8XM3YHg
-YouTube Walk-through Part 3 (PUT and DELETEs):
+YouTube Walk-through Part 3 (PUT and DELETEs): https://youtu.be/QFHpx1H-e4I
 
 
 ## Credits
